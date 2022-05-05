@@ -3,6 +3,12 @@ from fileinput import filename
 import json
 import numpy as np
 
+def has_key(dict, key):
+        for _ in dict:
+            if _ == key:
+                return True
+        return False
+
 def column_get_matrix_return(filename):
     # initializing the titles and rows list
     return_list = []
@@ -44,7 +50,7 @@ def json_column_distinct_value_grab(return_list):
     category_dict = {}
     for _ in dict_list:
         for category_key in _:
-            if not category_dict in category_key:
+            if not has_key(category_dict, category_key):
                 category_dict[category_key] = []
             else:
                 pass
@@ -59,15 +65,35 @@ def category_csv_make(category_dict):
     
     for _ in category_dict:
         a = []
+        #b = []
+        #master = []
         a.append(_)
-        
+        print('============================')
+        print(_)
         the_list = category_dict[_]
-        for item in the_list:
-            a.append(item)
-        my_mat = np.array(a)
-        print(my_mat)
-        print(a)
-        filename = f"/Users/scottcondo/Documents/GitHub/facebook_clean/csv_files/{_}.csv"
+        height = len(the_list)+1
+        mat = np.zeros((height,1), dtype=object)
+        mat[0][0] = _
+        #print(mat)
+        for item in range(len(the_list)):
+            print(len(the_list))
+            print(the_list[item])
+            mat[item+1][0] = the_list[item]
+        #print(mat)
+        #master.append(a)
+        #master.append(b)
+        #print(master)
+        
+        #my_mat = np.array(a, dtype = object)
+        
+        print(mat)
+        #print(my_mat)
+        #print(type(my_mat))
+        #print(height)
+        #my_mat.shape
+        #print(my_mat)
+        #print(a)
+        filename = f"C:\\Users\\Scott\\Documents\\GitHub\\facebook_clean\\csv_write\\{_}.csv"
         with open(filename, 'w') as csvfile:
             # creating a csv writer object
             csvwriter = csv.writer(csvfile)
@@ -76,11 +102,13 @@ def category_csv_make(category_dict):
             #csvwriter.writerow(fields)
             
             # writing the data rows
-            csvwriter.writerows(my_mat)
+            csvwriter.writerows(mat)
+    
+    
     
 
                 
 
-needed_data = column_get_matrix_return('/Users/scottcondo/Documents/GitHub/facebook_clean/resources/ORDER_URL_TAG (SHOPIFY_F000193_1.ORDER_URL_TAG) (SHOPIFY_F000193_1)_AD_SET_HISTORY.csv')
+needed_data = column_get_matrix_return('C:\\Users\\Scott\\Documents\\GitHub\\facebook_clean\\resources\\ORDER_URL_TAG (SHOPIFY_F000193_1.ORDER_URL_TAG) (SHOPIFY_F000193_1)_AD_SET_HISTORY.csv')
 category_dict = json_column_distinct_value_grab(needed_data)
 category_csv_make(category_dict)
