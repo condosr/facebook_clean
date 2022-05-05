@@ -38,58 +38,68 @@ def json_column_distinct_value_grab(return_list):
     column = return_list[1]
     the_count = 0
     dict_list = []
-    with open('C:\\Users\\Scott\\Documents\\GitHub\\facebook_clean\\resources\\example.txt', 'w') as pls:
-        for i in range(len(data_matrix)):
-            if i > 0:
-                current_item = data_matrix[i][column]
-                pls.write(str(i))
-                pls.write(current_item)
-                pls.write('\n')
-                #pls.close()
-                if not current_item.strip() == '':
-                    try:
-                        yo = json.loads(current_item.strip(']['))
-                        the_dict = dict(yo)
-                        dict_list.append(the_dict)
-                    except:
-                        'uh oh'
-        pls.close()
+    
+    for i in range(len(data_matrix)):
+        if i > 0:
+            current_item = data_matrix[i][column]
+            if not current_item.strip() == '':
+                current_item = current_item.replace('\n', '')
+                current_item = current_item.replace(' ', '')
+                current_item = current_item.strip()
+                yo = json.loads(current_item)
+                dict_list.append(yo)
     category_dict = {}
-    for _ in dict_list:
-        for category_key in _:
-            if not has_key(category_dict, category_key):
-                category_dict[category_key] = []
-            else:
-                pass
-            sub_dict_list = _[category_key]
-            for sub_dict in sub_dict_list:
-                if not sub_dict['name'] in category_dict[category_key]:
-                    category_dict[category_key].append(sub_dict['name'])
-    print(category_dict)
+    for sub_list in dict_list:
+        for _ in sub_list:
+            for category_key in _:
+                if not has_key(category_dict, category_key):
+                    category_dict[category_key] = []
+                else:
+                    pass
+                sub_dict_list = _[category_key]
+                for sub_dict in sub_dict_list:
+                    if type(sub_dict) == 'dict':
+                        if not sub_dict['name'] in category_dict[category_key]:
+                            category_dict[category_key].append(sub_dict['name']) 
+                    else:
+                        try: 
+                            if not sub_dict in category_dict[category_key]:
+                                temp_dict = json.loads(sub_dict)
+                                category_dict[category_key].append(temp_dict['name'])
+                        except:
+                            if not sub_dict in category_dict[category_key]:
+                                category_dict[category_key].append(sub_dict)
     return category_dict
 
 def category_csv_make(category_dict):
+    topic_dict = {}
+    for topic in category_dict:
+        categories = category_dict[topic]
+        topic_dict[topic] = []
+        for category in categories:
+            try:
+                topic_dict[topic].append(category['name'])
+            except:
+                topic_dict[topic].append(category)
+    print(topic_dict)
     
-    for _ in category_dict:
+    for _ in topic_dict:
         a = []
         a.append(_)
-        print('============================')
-        print(_)
-        the_list = category_dict[_]
+        the_list = topic_dict[_]
         height = len(the_list)+1
         mat = np.zeros((height,1), dtype=object)
         mat[0][0] = _
-        #print(mat)
+    
         for item in range(len(the_list)):
-            print(len(the_list))
-            print(the_list[item])
             mat[item+1][0] = the_list[item]
-        print(mat)
         
         filename = f"C:\\Users\\Scott\\Documents\\GitHub\\facebook_clean\\csv_write\\{_}.csv"
         with open(filename, 'w') as csvfile:
             csvwriter = csv.writer(csvfile)
             csvwriter.writerows(mat)
+        csvfile.close()
+    return topic_dict
 
 def updated_table_write(return_list, category_dict):
     expand_rows = len(category_dict) - 1
@@ -101,22 +111,17 @@ def updated_table_write(return_list, category_dict):
     #print(new_mat)
     corrected_column = 0
     for row in range(len(original_matrix)):
-        #if row >= not_needed_row:
-            #corrected_row = row + 1
         for cell in range(len(original_matrix[0]) - 1):
             if cell >= not_needed_column:
                 corrected_column = cell + 1
                 new_mat[row][cell] = original_matrix[row][corrected_column]
             else:
                 new_mat[row][cell] = original_matrix[row][cell]
-    print(new_mat)
+    
     filename = f"C:\\Users\\Scott\\Documents\\GitHub\\facebook_clean\\csv_write\\updated_csv.csv"
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerows(new_mat)
-
-    #need the row index plus attributes ex. {row : dict of }
-    print(new_mat[0][-4])
 
 
 def dict_row_pair(return_list):
@@ -127,22 +132,19 @@ def dict_row_pair(return_list):
         if i > 0:
             current_item = data_matrix[i][column]
             if not current_item.strip() == '':
-                try:
-                    temp_dict = {}
-                    yo = json.loads(current_item.strip(']['))
-                    the_dict = dict(yo)
-                    temp_dict[i] = the_dict
-                    dict_list.append(temp_dict)
-                except:
-                    'uh oh'
-    print(dict_list)
-    return dict_list
+                current_item = current_item.replace('\n', '')
+                current_item = current_item.replace(' ', '')
+                current_item = current_item.strip()
+                yo = json.loads(current_item)
+                dict_list.append(yo)
+    
+    
 
 def dict_row_clean(dict_list):
     total_dict = {}
     key_dict = {}
     for dict in dict_list:
-        print('===========================================')
+        #print('===========================================')
         for key in dict:
             topics = dict[key]
             #print(topics)
@@ -162,13 +164,26 @@ def dict_row_clean(dict_list):
                 my_string.strip()
                 topic_dict[topic] = my_string
             key_dict[key] = topic_dict
-    #print(key_dict)
+    print(key_dict)
         
         #for topic in dict:
             #answer_string = ''
             #for category in topic:
                 #pass
             #alter_dict[topic] = answer_string
+
+def json_fix(string_json):
+    open_paren_count = 0
+    #close_paren_count = 0
+    for _ in string_json:
+        #print(_)
+        if _ == '{':
+            open_paren_count += 1
+        elif _ == '}':
+            open_paren_count -= 1
+        print(open_paren_count)
+    print(open_paren_count)
+        
             
             
 
@@ -176,7 +191,7 @@ def dict_row_clean(dict_list):
     
 
                 
-
+#json_fix('{"family_statuses":[{"id":"6023005458383","name":"Parentswithtoddlers(01-02years)"},{"id":"6023005529383","name":"Parentswithpreschoolers(03-05years)"},{"id":"6023005570783","name":"Parentswithearlyschool-agechildren(06-08years)"},{"id":"6023080302983","name":"Parentswithpreteens(09-12years)"}]},{"education_statuses":[11,3,9]}')
 needed_data = column_get_matrix_return('C:\\Users\\Scott\\Documents\\GitHub\\facebook_clean\\resources\\ORDER_URL_TAG (SHOPIFY_F000193_1.ORDER_URL_TAG) (SHOPIFY_F000193_1)_AD_SET_HISTORY.csv')
 category_dict = json_column_distinct_value_grab(needed_data)
 category_csv_make(category_dict)
