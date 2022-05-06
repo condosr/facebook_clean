@@ -29,7 +29,7 @@ def column_get_matrix_return(filename):
             count +=1
     return_list.append(rows)
     return_list.append(count)
-    print(return_list[1])
+    #print(return_list[1])
     return return_list
     
     
@@ -129,6 +129,7 @@ def dict_row_pair(return_list):
     column = return_list[1]
     dict_list = []
     for i in range(len(data_matrix)):
+        pair = []
         if i > 0:
             current_item = data_matrix[i][column]
             if not current_item.strip() == '':
@@ -136,11 +137,74 @@ def dict_row_pair(return_list):
                 current_item = current_item.replace(' ', '')
                 current_item = current_item.strip()
                 yo = json.loads(current_item)
-                dict_list.append(yo)
-    
+                pair.append(i)
+                pair.append(yo)
+                dict_list.append(pair)
+    print('__________________________________________________')
+    #print(dict_list)
+    the_key = 0
+    new_list = []
+    for _ in dict_list:
+        yo = {}
+        the_key = _[0]
+        value = _[1]
+        yo[the_key] = value
+        new_list.append(yo)
+    print(new_list)
+    return new_list
+
     
 
 def dict_row_clean(dict_list):
+    total_dict = {}
+    key_dict = {}
+    for dict in dict_list:
+        for row_num in dict:
+            print('++++++++++++++++++++++++')
+            key_dict[row_num] = {}
+            topics = dict[row_num]
+            for topic_dicts in topics:
+                print('===============')
+                print(topic_dicts)
+                for topic in topic_dicts:
+                    categories = topic_dicts[topic]
+                    category_string = ''
+                    category_count = 0
+                    amount_of_categories = len(categories)
+                    for category_dict in categories:
+                        category_count += 1
+                        #print(category_dict)
+                        if type(category_dict) == int:
+                            stringed = str(category_dict)
+                            if category_count < amount_of_categories and category_count > 1 and amount_of_categories >= 1:
+                                category_string += ' ' + stringed + ' and'
+                            elif category_count == 1 and amount_of_categories > 1:
+                                category_string += stringed + ' and'
+                            elif category_count >= amount_of_categories and amount_of_categories >=1:
+                                category_string += ' ' + stringed
+                            elif amount_of_categories == 1:
+                                category_string += stringed
+                        else:
+                            name = category_dict['name']
+                            if type(name) == list:
+                                name = "".join(name)
+                            elif type(name) == int:
+                                name = str(int)
+                            if category_count < amount_of_categories and category_count > 1 and amount_of_categories >= 1:
+                                category_string += ' ' + name + ' and'
+                            elif category_count == 1 and amount_of_categories > 1:
+                                category_string += name + ' and'
+                            elif category_count >= amount_of_categories and amount_of_categories >=1:
+                                category_string += ' ' + name
+                            elif amount_of_categories == 1:
+                                category_string += name
+                        #row_num_dict = key_dict[row_num] 
+                        key_dict[row_num][topic] = category_string
+    print('@@@@@@@@@@@@@@@@@@@@@@')
+    print(key_dict)
+    return key_dict
+
+    '''
     total_dict = {}
     key_dict = {}
     for dict in dict_list:
@@ -154,7 +218,7 @@ def dict_row_clean(dict_list):
                 categories = topics[topic]
                 #print(categories)
                 counter = 0
-                my_string = ''
+                my_string = ''                                                                                                                                                                                                                                                                                                   
                 for category in categories:
                     counter += 1
                     if counter >= len(categories):
@@ -164,14 +228,14 @@ def dict_row_clean(dict_list):
                 my_string.strip()
                 topic_dict[topic] = my_string
             key_dict[key] = topic_dict
-    print(key_dict)
+    #print(key_dict)
         
         #for topic in dict:
             #answer_string = ''
             #for category in topic:
                 #pass
             #alter_dict[topic] = answer_string
-
+    '''
 def json_fix(string_json):
     open_paren_count = 0
     #close_paren_count = 0
