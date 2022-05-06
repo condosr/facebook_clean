@@ -1,4 +1,4 @@
-﻿_fivetran Synced (Ad Set History),Account Id (Ad Set History),Adset Source Id,Asset Feed Id,Bid Strategy,Billing Event,Campaign Id,Configured Status,Created Time,Destination Type,Effective Status,End Time,Id (Ad Set History),Instagram Actor Id,Is Dynamic Creative,Learning Stage Info Attribution Windows,Learning Stage Info Status,Multi Optimization Goal Weight,Name (Ad Set History),Optimization Goal,Optimization Sub Event,Promoted Object Application Id,Promoted Object Custom Event Type,Promoted Object Event Id,Promoted Object Object Store Url,Promoted Object Offer Id,Promoted Object Page Id,Promoted Object Pixel Id,Promoted Object Place Page Set Id,Promoted Object Product Catalog Id,Promoted Object Product Set Id,Recurring Budget Semantics,Review Feedback,Rf Prediction Id,Start Time,Status,Targeting App Install State,Targeting Audience Network Positions,Targeting College Years,Targeting Connections,Targeting Device Platforms,Targeting Education Majors,Targeting Education Schools,Targeting Education Statuses,Targeting Effective Audience Network Positions,Targeting Excluded Connections,Targeting Excluded Publisher Categories,Targeting Excluded Publisher List Ids,Targeting Excluded User Device,Targeting Exclusions,Targeting Facebook Positions,Targeting Friends Of Connections,Targeting Geo Locations Countries,Targeting Geo Locations Location Types,Targeting Instagram Positions,Targeting Locales,Targeting Publisher Platforms,Targeting User Adclusters,Targeting User Device,Targeting User Os,Targeting Wireless Carrier,Targeting Work Employers,Targeting Work Positions,Updated Time,Use New App Click,Bid Amount,Bid Info Actions,Budget Remaining,Daily Budget,Daily Min Spend Target,Daily Spend Cap,Learning Stage Info Conversions,Learning Stage Info Last Sig Edit Ts,Lifetime Budget,Lifetime Imps,Lifetime Min Spend Target,Lifetime Spend Cap,Targeting Age Max,Targeting Age Min,0,0,0,0,0,0
+﻿_fivetran Synced (Ad Set History),Account Id (Ad Set History),Adset Source Id,Asset Feed Id,Bid Strategy,Billing Event,Campaign Id,Configured Status,Created Time,Destination Type,Effective Status,End Time,Id (Ad Set History),Instagram Actor Id,Is Dynamic Creative,Learning Stage Info Attribution Windows,Learning Stage Info Status,Multi Optimization Goal Weight,Name (Ad Set History),Optimization Goal,Optimization Sub Event,Promoted Object Application Id,Promoted Object Custom Event Type,Promoted Object Event Id,Promoted Object Object Store Url,Promoted Object Offer Id,Promoted Object Page Id,Promoted Object Pixel Id,Promoted Object Place Page Set Id,Promoted Object Product Catalog Id,Promoted Object Product Set Id,Recurring Budget Semantics,Review Feedback,Rf Prediction Id,Start Time,Status,Targeting App Install State,Targeting Audience Network Positions,Targeting College Years,Targeting Connections,Targeting Device Platforms,Targeting Education Majors,Targeting Education Schools,Targeting Education Statuses,Targeting Effective Audience Network Positions,Targeting Excluded Connections,Targeting Excluded Publisher Categories,Targeting Excluded Publisher List Ids,Targeting Excluded User Device,Targeting Exclusions,Targeting Facebook Positions,Targeting Friends Of Connections,Targeting Geo Locations Countries,Targeting Geo Locations Location Types,Targeting Instagram Positions,Targeting Locales,Targeting Publisher Platforms,Targeting User Adclusters,Targeting User Device,Targeting User Os,Targeting Wireless Carrier,Targeting Work Employers,Targeting Work Positions,Updated Time,Use New App Click,Bid Amount,Bid Info Actions,Budget Remaining,Daily Budget,Daily Min Spend Target,Daily Spend Cap,Learning Stage Info Conversions,Learning Stage Info Last Sig Edit Ts,Lifetime Budget,Lifetime Imps,Lifetime Min Spend Target,Lifetime Spend Cap,Targeting Age Max,Targeting Age Min,behaviors,work_positions,income,education_statuses,family_statuses,interests
 4/20/2022 8:17:37 AM,2639464932933985,23848377724540659,,,IMPRESSIONS,23849574292260659,ACTIVE,1/23/2022 7:21:30 PM,UNDEFINED,ACTIVE,,23849574292400659,,False,"[
   ""7d_click""
 ]",FAIL,UNDEFINED,broad audience,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,1/23/2022 7:21:31 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
@@ -21,7 +21,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/15/2022 12:29:10 AM,False,,,0,,2000,,12,1648091376,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,4/15/2022 12:29:10 AM,False,,,0,,2000,,12,1648091376,,0,,,55,25,0,0,0,0,0,Homeschooling and Cakedecorating and KidsActivities and FunCraftsKids
 4/21/2022 2:20:15 AM,2639464932933985,23849574292270659,,,IMPRESSIONS,23849574292260659,ACTIVE,3/22/2022 3:12:26 AM,UNDEFINED,ACTIVE,,23850016155190659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -42,7 +42,7 @@
 ]",,"[
   ""facebook"",
   ""instagram""
-]",,,,,,,4/15/2022 12:32:12 AM,False,,,0,,2000,,10,1648004252,,0,,,65,18,0,0,0,0,0,0
+]",,,,,,,4/15/2022 12:32:12 AM,False,,,0,,2000,,10,1648004252,,0,,,65,18,0,0,0,0,0,Homeschooling and Cakedecorating and Birthdaycake and FunCraftsKids
 4/21/2022 2:20:15 AM,2639464932933985,23849871181890659,,,IMPRESSIONS,23849574292260659,ACTIVE,3/17/2022 12:07:27 AM,UNDEFINED,ACTIVE,,23849974506340659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -51,7 +51,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/15/2022 12:32:03 AM,False,,,0,,2000,,9,1648300657,,0,,,65,18,0,0,0,0,0,0
+]",,,,,,,,,,4/15/2022 12:32:03 AM,False,,,0,,2000,,9,1648300657,,0,,,65,18,0,0,0,0,0, Watercolorpainting
 4/21/2022 2:20:15 AM,2639464932933985,23848377912560659,,,IMPRESSIONS,23849574292260659,PAUSED,1/23/2022 7:21:30 PM,UNDEFINED,PAUSED,,23849574292270659,,False,,,UNDEFINED,LAL email 2%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,1/23/2022 7:21:30 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -66,7 +66,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/25/2022 4:05:50 PM,False,,,1805,2000,,,1,,0,0,,,65,24,0,0,0,0,0,0
+]",,,,,,,,,,4/25/2022 4:05:50 PM,False,,,1805,2000,,,1,,0,0,,,65,24,0,0,0,0,0, Crafts
 5/3/2022 9:02:49 AM,2639464932933985,23849871434150659,,LOWEST_COST_WITHOUT_CAP,IMPRESSIONS,23850287676990659,ACTIVE,4/25/2022 4:08:10 PM,UNDEFINED,ACTIVE,,23850287696160659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -75,7 +75,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/25/2022 4:08:10 PM,False,,,1780,2000,,,0,,0,0,,,65,24,0,0,0,0,0,0
+]",,,,,,,,,,4/25/2022 4:08:10 PM,False,,,1780,2000,,,0,,0,0,,,65,24,0,0,0,0,0, FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23850038981390659,,LOWEST_COST_WITHOUT_CAP,IMPRESSIONS,23850287676990659,ACTIVE,4/25/2022 4:07:27 PM,UNDEFINED,ACTIVE,,23850287696200659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -84,7 +84,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/25/2022 4:07:27 PM,False,,,1819,2000,,,0,,0,0,,,65,24,0,0,0,0,0,0
+]",,,,,,,,,,4/25/2022 4:07:27 PM,False,,,1819,2000,,,0,,0,0,,,65,24,0,0,0,11 and 3 and 9,Parentswithtoddlers(01-02years) and Parentswithpreschoolers(03-05years) and Parentswithearlyschool-agechildren(06-08years) and Parentswithpreteens(09-12years),0
 5/3/2022 9:02:49 AM,2639464932933985,0,,LOWEST_COST_WITHOUT_CAP,IMPRESSIONS,23850287676990659,ACTIVE,4/25/2022 4:05:50 PM,UNDEFINED,ACTIVE,,23850287677120659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -93,7 +93,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/25/2022 4:05:50 PM,False,,,1856,2000,,,0,,0,0,,,65,24,0,0,0,0,0,0
+]",,,,,,,,,,4/25/2022 4:05:50 PM,False,,,1856,2000,,,0,,0,0,,,65,24,0,0,0,0,0, KidsActivities
 5/3/2022 9:02:49 AM,2639464932933985,23849974506340659,,LOWEST_COST_WITHOUT_CAP,IMPRESSIONS,23850287676990659,ACTIVE,4/25/2022 4:08:45 PM,UNDEFINED,ACTIVE,,23850287696180659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -102,7 +102,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/25/2022 4:08:45 PM,False,,,1823,2000,,,2,,0,0,,,65,24,0,0,0,0,0,0
+]",,,,,,,,,,4/25/2022 4:08:45 PM,False,,,1823,2000,,,2,,0,0,,,65,24,0,0,0,0,0, Watercolorpainting
 5/3/2022 9:02:49 AM,2639464932933985,23850287677120659,,LOWEST_COST_WITHOUT_CAP,IMPRESSIONS,23850287676990659,ACTIVE,4/25/2022 4:06:02 PM,UNDEFINED,ACTIVE,,23850287764320659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -117,7 +117,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/21/2022 2:35:53 AM,False,,,0,,,,,,,0,,,65,18,0,0,0,0,0,0
+]",,,,,,,,,,4/21/2022 2:35:53 AM,False,,,0,,,,,,,0,,,65,18,0,0,0,0,0, Watercolorpainting
 5/3/2022 9:02:49 AM,2639464932933985,23849574292270659,,,IMPRESSIONS,23849574292260659,ACTIVE,3/22/2022 3:12:26 AM,UNDEFINED,CAMPAIGN_PAUSED,,23850016155190659,,False,,,UNDEFINED,Single Kits,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,3/22/2022 3:12:26 AM,ACTIVE,,,,,"[
   ""mobile"",
   ""desktop""
@@ -135,7 +135,7 @@
 ]",,"[
   ""facebook"",
   ""instagram""
-]",,,,,,,4/21/2022 2:49:36 AM,False,,,0,,,,,,,0,,,64,28,0,0,0,0,0,0
+]",,,,,,,4/21/2022 2:49:36 AM,False,,,0,,,,,,,0,,,64,28,0,0,0,0,0,Homeschooling and Cakedecorating and Birthdaycake and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23848377724540659,,,IMPRESSIONS,23849574292260659,PAUSED,1/23/2022 7:21:30 PM,UNDEFINED,PAUSED,,23849574292400659,,False,,,UNDEFINED,broad audience,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,1/23/2022 7:21:31 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -159,7 +159,7 @@
 ]",,"[
   ""facebook"",
   ""instagram""
-]",,,,,,,4/21/2022 2:53:57 AM,False,,,0,,,,,,,0,,,55,28,0,0,0,0,0,0
+]",,,,,,,4/21/2022 2:53:57 AM,False,,,0,,,,,,,0,,,55,28,0,0,0,3 and 9,Parentswithearlyschool-agechildren(06-08years) and Parentswithpreteens(09-12years),LuxuryResorts and Luxurygoods
 5/3/2022 9:02:49 AM,2639464932933985,23850016155190659,,,IMPRESSIONS,23849574292260659,ACTIVE,4/21/2022 2:51:34 AM,UNDEFINED,CAMPAIGN_PAUSED,,23850254739590659,,False,,,UNDEFINED,Single Kits - Dino Dig,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,4/21/2022 2:51:34 AM,ACTIVE,,,,,"[
   ""mobile"",
   ""desktop""
@@ -177,7 +177,7 @@
 ]",,"[
   ""facebook"",
   ""instagram""
-]",,,,,,,4/21/2022 2:51:34 AM,False,,,0,,,,,,,0,,,55,28,0,0,0,0,0,0
+]",,,,,,,4/21/2022 2:51:34 AM,False,,,0,,,,,,,0,,,55,28,0,0,0,0,Parentswithpreschoolers(03-05years) and Parentswithearlyschool-agechildren(06-08years) and Parentswithpreteens(09-12years),TheLandBeforeTime and Dinosaur
 5/3/2022 9:02:49 AM,2639464932933985,23848377912560659,,,IMPRESSIONS,23849574292260659,PAUSED,1/23/2022 7:21:30 PM,UNDEFINED,PAUSED,,23849574292270659,,False,,,UNDEFINED,LAL email 2%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,1/23/2022 7:21:30 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -189,14 +189,14 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/21/2022 2:35:53 AM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,4/21/2022 2:35:53 AM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,Homeschooling and Cakedecorating and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23850037312470659,ACTIVE,3/24/2022 2:37:18 AM,UNDEFINED,ACTIVE,3/29/2022 2:37:48 AM,23850037312560659,,False,,,UNDEFINED,"Post: ""Hippity Hop! #Easter Is On Its Way! Get ready for...""",OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,3/24/2022 2:37:48 AM,ACTIVE,,,,,,,,,,,,,,,,,,"[
   ""home""
 ]",,,"[
   ""facebook"",
   ""instagram"",
   ""messenger""
-]",,,,,,,3/24/2022 2:37:18 AM,False,,,0,,,,,,,0,,,65,30,0,0,0,0,0,0
+]",,,,,,,3/24/2022 2:37:18 AM,False,,,0,,,,,,,0,,,65,30,0,0,Householdincome:top5%ofZIPcodes(US) and Householdincome:top10%ofZIPcodes(US) and Householdincome:top25%-50%ofZIPcodes(US),0,Parentswithpreschoolers(03-05years) and Parentswithearlyschool-agechildren(06-08years) and Parentswithpreteens(09-12years),Motherhood and Boutiques and Crafts and Desserts and Painting and Parenting and Onlineshopping and Children'sclothing and Doityourself(DIY) and Family and Luxurygoods
 5/3/2022 9:02:49 AM,2639464932933985,23847396115120659,,,IMPRESSIONS,23847396115110659,ACTIVE,9/14/2021 12:17:28 AM,UNDEFINED,CAMPAIGN_PAUSED,,23848491203760659,,False,,,UNDEFINED,Video views,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,9/14/2021 12:17:28 AM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -207,13 +207,13 @@
   ""US""
 ]","[
   ""home""
-]",,,,,,,,,,4/15/2022 12:30:07 AM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,4/15/2022 12:30:07 AM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,Homeschooling and Cakedecorating and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23849871434150659,,,IMPRESSIONS,23850164400390659,ACTIVE,4/8/2022 7:19:01 PM,UNDEFINED,CAMPAIGN_PAUSED,,23850164400640659,,False,,,UNDEFINED,INT: crafts Easter - Copy,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,4/8/2022 7:19:02 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/10/2022 5:51:51 PM,False,,,0,,,,,,,0,,,60,24,0,0,0,0,0,0
+]",,,,,,,,,,4/10/2022 5:51:51 PM,False,,,0,,,,,,,0,,,60,24,0,0,0,0,0,KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847396172890659,,,IMPRESSIONS,23847396172780659,PAUSED,7/2/2021 9:36:15 AM,UNDEFINED,PAUSED,,23847928926740659,,False,,,UNDEFINED,BOGO 50%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,7/2/2021 9:36:15 AM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -255,19 +255,19 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/17/2022 7:41:23 AM,False,,,0,,,,,,,0,,,60,25,0,0,0,0,0,0
+]",,,,,,,,,,4/17/2022 7:41:23 AM,False,,,0,,,,,,,0,,,60,25,0, Teacher,0,0,Parentswithpreschoolers(03-05years) and Parentswithearlyschool-agechildren(06-08years) and Parentswithpreteens(09-12years),Watercolorpainting and Crafts and Painting and Etsy and Creativity and Cakedecorating and HandmadeCrafts
 5/3/2022 9:02:49 AM,2639464932933985,23847729426800659,,,IMPRESSIONS,23848968516810659,ARCHIVED,11/9/2021 7:49:29 PM,UNDEFINED,ARCHIVED,,23848968518160659,,False,,,UNDEFINED,TOF -Female | 25-65+ | Father's Day | Moms,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/9/2021 7:49:29 PM,ARCHIVED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0, Parents(All),Father'sDay and Father'sDay(UnitedStates)
 5/3/2022 9:02:49 AM,2639464932933985,23847374157350659,,,IMPRESSIONS,23847374157320659,PAUSED,4/15/2021 10:12:47 PM,UNDEFINED,PAUSED,,23847374848680659,,False,,,UNDEFINED,Male | 25 - 65+| Cooking/Homeschooling Interests + Parents,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,4/15/2021 10:12:47 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0, Parents(All),Crafts and Homeschooling and Cakedecorating and CookingandBaking and Crafty and Childdevelopment and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847396115260659,,,IMPRESSIONS,23849574200040659,PAUSED,1/23/2022 7:07:00 PM,UNDEFINED,PAUSED,,23849574200030659,,False,,,UNDEFINED,MOF - Website Visitors/Page Engagers 180D,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,1/23/2022 7:07:00 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -303,19 +303,19 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/15/2022 12:31:47 AM,False,,,0,,,,,,,0,,,60,24,0,0,0,0,0,0
+]",,,,,,,,,,4/15/2022 12:31:47 AM,False,,,0,,,,,,,0,,,60,24,0,0,0,0,0,KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23850002288540659,,,IMPRESSIONS,23850015927670659,ACTIVE,3/21/2022 6:33:32 PM,UNDEFINED,CAMPAIGN_PAUSED,,23850015928900659,,False,,,UNDEFINED,INT: crafts 2,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,3/21/2022 6:33:33 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,3/24/2022 7:15:23 AM,False,,,0,,500,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,3/24/2022 7:15:23 AM,False,,,0,,500,,,,,0,,,55,25,0,0,0,0,0,Homeschooling and Cakedecorating and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847374157350659,,,IMPRESSIONS,23847374157320659,PAUSED,7/6/2021 6:02:09 AM,UNDEFINED,PAUSED,,23847949915340659,,False,,,UNDEFINED,TOF -Female | 25-55 | Crafts/Baking/Homeschooling Interests + Parents,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,7/6/2021 6:02:09 AM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,2000,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,2000,,,,,0,,,55,25,0,0,0,0, Parents(All),Crafts and Baking and Homeschooling and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847478712620659,,,IMPRESSIONS,23847374157320659,PAUSED,8/12/2021 7:55:06 AM,UNDEFINED,PAUSED,,23848215584870659,,False,,,UNDEFINED,LLA Email 2% - b2s,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,8/12/2021 7:55:07 AM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -355,7 +355,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,55,25,0,0,0,0, Parents(All),GreatBirthdayPartyIdeas and BirthdayGifts and Birthdaycake and Children'sparty and PartySupplies
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23844551566200659,ACTIVE,4/1/2020 6:43:14 PM,UNDEFINED,CAMPAIGN_PAUSED,4/5/2020 6:43:14 PM,23844551566310659,,False,,,UNDEFINED,Instagram Post: Woot! Woot! 🔔🔔🔔 We have our first...,LINK_CLICKS,NONE,,,,,,,,,,,False,,,4/1/2020 6:43:19 PM,ACTIVE,,,,,"[
   ""mobile""
 ]",,,,,,,,,,,,,"[
@@ -371,13 +371,13 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/10/2022 5:51:51 PM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,4/10/2022 5:51:51 PM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,Homeschooling and Cakedecorating and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,0,,LOWEST_COST_WITHOUT_CAP,IMPRESSIONS,23850078657710659,ACTIVE,3/29/2022 10:27:22 PM,UNDEFINED,CAMPAIGN_PAUSED,,23850078657740659,,False,,,UNDEFINED,Baby Showers,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,True,,,3/29/2022 10:27:23 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,3/29/2022 10:27:22 PM,False,,,1500,1500,,,,,0,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,3/29/2022 10:27:22 PM,False,,,1500,1500,,,,,0,0,,,55,25,0,0,0,0,0, Babyshower
 5/3/2022 9:02:49 AM,2639464932933985,23848542770890659,,,IMPRESSIONS,23848542770840659,ACTIVE,9/20/2021 1:15:24 AM,UNDEFINED,CAMPAIGN_PAUSED,,23848542932260659,,False,,,UNDEFINED,LLA Email 2%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,9/20/2021 1:15:24 AM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -386,7 +386,7 @@
 ]",,,,,,,,,,9/20/2021 1:15:34 AM,False,,,0,,,,,,,0,,,65,18,0,0,0,0,0,0
 5/3/2022 9:02:49 AM,2639464932933985,23849851851620659,,,IMPRESSIONS,23849574292260659,PAUSED,3/4/2022 6:02:01 PM,UNDEFINED,PAUSED,3/14/2022 2:59:00 AM,23849875868730659,,False,,,UNDEFINED,INT: St Patricks - Cities - Crafts,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,3/4/2022 6:02:01 PM,PAUSED,,,,,,,,,,,,,,,,,,"[
   ""home""
-]",,,,,,,,,,4/15/2022 12:30:08 AM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,4/15/2022 12:30:08 AM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,Homeschooling and Cakedecorating and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23847396172780659,ACTIVE,4/22/2021 7:27:27 PM,UNDEFINED,ACTIVE,,23847396172890659,,False,"[
   ""7d_click"",
   ""1d_view""
@@ -401,13 +401,13 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,3/24/2022 7:15:22 AM,False,,,0,,500,,,,,0,,,65,18,0,0,0,0,0,0
+]",,,,,,,,,,3/24/2022 7:15:22 AM,False,,,0,,500,,,,,0,,,65,18,0,0,0,0,0, Watercolorpainting
 5/3/2022 9:02:49 AM,2639464932933985,23847949915340659,,,IMPRESSIONS,23848968516810659,ARCHIVED,11/9/2021 7:49:16 PM,UNDEFINED,ARCHIVED,,23848968518220659,,False,,,UNDEFINED,TOF -Female | 25-55 | Crafts/Baking/Homeschooling Interests + Parents,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/9/2021 7:49:16 PM,ARCHIVED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,2000,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,2000,,,,,0,,,55,25,0,0,0,0, Parents(All),Crafts and Baking and Homeschooling and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23848377724540659,,,IMPRESSIONS,23848377724500659,ACTIVE,9/1/2021 10:17:58 PM,UNDEFINED,CAMPAIGN_PAUSED,,23848377912560659,,False,,,UNDEFINED,LAL email 2%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,9/1/2021 10:17:58 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -439,7 +439,7 @@
 5/3/2022 9:02:49 AM,2639464932933985,23847955573710659,,,IMPRESSIONS,23847374157320659,PAUSED,7/21/2021 12:51:14 AM,UNDEFINED,PAUSED,,23848050054360659,,False,,,UNDEFINED,Christmas In July - Location Specific,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,7/21/2021 12:51:14 AM,PAUSED,,,,,,,,,,,,,,,,,,"[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:25 PM,False,,,0,,1500,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:25 PM,False,,,0,,1500,,,,,0,,,55,25,0,0,0,0,0, Christmasandholidayseason
 5/3/2022 9:02:49 AM,2639464932933985,23848542932260659,,,IMPRESSIONS,23848542770840659,ACTIVE,9/20/2021 1:18:20 AM,UNDEFINED,CAMPAIGN_PAUSED,,23848542945760659,,False,,,UNDEFINED,LLA ATC 1%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,9/20/2021 1:18:20 AM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -501,7 +501,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,KidActivities and Cardmaking and FamilyActivities and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847478712620659,,,IMPRESSIONS,23847374157320659,PAUSED,7/7/2021 12:32:17 AM,UNDEFINED,PAUSED,,23847955573710659,,False,,,UNDEFINED,LLA 1%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,7/7/2021 12:32:18 AM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -511,7 +511,7 @@
 5/3/2022 9:02:49 AM,2639464932933985,23848050054360659,,,IMPRESSIONS,23848968516810659,ARCHIVED,11/9/2021 7:49:04 PM,UNDEFINED,ARCHIVED,,23848968518230659,,False,,,UNDEFINED,Christmas In July - Location Specific,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/9/2021 7:49:04 PM,ARCHIVED,,,,,,,,,,,,,,,,,,"[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,1500,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,1500,,,,,0,,,55,25,0,0,0,0,0, Christmasandholidayseason
 5/3/2022 9:02:49 AM,2639464932933985,23849574159750659,,,IMPRESSIONS,23849574159760659,ACTIVE,1/23/2022 7:05:23 PM,UNDEFINED,CAMPAIGN_PAUSED,,23849574195690659,,False,,,UNDEFINED,LLA email 2% (new),OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,1/23/2022 7:05:23 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -527,7 +527,7 @@
   ""story""
 ]",,"[
   ""instagram""
-]",,,,,,,3/30/2020 3:23:34 PM,False,706,706,0,,,,,,,0,,,50,25,0,0,0,0,0,0
+]",,,,,,,3/30/2020 3:23:34 PM,False,706,706,0,,,,,,,0,,,50,25,0,0,0,0,0,Genealogy and Ancestry.com and FamilyHistoryCenter(LDSChurch) and Familytree and Parenting and Temple(LDSChurch) and FamilyHistoryLibrary and Family and Familyandrelationships
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23844537839670659,ACTIVE,3/30/2020 3:18:12 AM,UNDEFINED,CAMPAIGN_PAUSED,4/2/2020 3:18:12 AM,23844537839770659,,False,,,UNDEFINED,Instagram Post: Look at those tulips in this...,POST_ENGAGEMENT,NONE,,,,,,,,,,,False,,,3/30/2020 3:18:16 AM,ACTIVE,,,,,"[
   ""mobile""
 ]",,,,,,,,,,,,,"[
@@ -613,25 +613,25 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,3/24/2022 7:15:23 AM,False,,,0,,500,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,3/24/2022 7:15:23 AM,False,,,0,,500,,,,,0,,,55,25,0,0,0,11 and 3 and 9,Parentswithtoddlers(01-02years) and Parentswithpreschoolers(03-05years) and Parentswithearlyschool-agechildren(06-08years) and Parentswithpreteens(09-12years),0
 5/3/2022 9:02:49 AM,2639464932933985,23847374157350659,,,IMPRESSIONS,23848968516810659,ARCHIVED,11/9/2021 7:49:47 PM,UNDEFINED,ARCHIVED,,23848968518240659,,False,,,UNDEFINED,TOF -Female | 25-65+ | Cooking/Homeschooling Interests + Parents,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/9/2021 7:49:47 PM,ARCHIVED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0, Parents(All),Homeschooling and Cakedecorating and CookingandBaking and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847374848680659,,,IMPRESSIONS,23848968516810659,ARCHIVED,11/9/2021 7:49:11 PM,UNDEFINED,ARCHIVED,,23848968518140659,,False,,,UNDEFINED,Male | 25 - 65+| Cooking/Homeschooling Interests + Parents,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/9/2021 7:49:11 PM,ARCHIVED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0, Parents(All),Crafts and Homeschooling and Cakedecorating and CookingandBaking and Crafty and Childdevelopment and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23849574292270659,,,IMPRESSIONS,23849574292260659,PAUSED,3/1/2022 7:08:24 PM,UNDEFINED,PAUSED,3/14/2022 2:59:00 AM,23849851851620659,,False,,,UNDEFINED,INT: St Patricks,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,3/1/2022 7:08:24 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,4/15/2022 12:30:08 AM,False,,,0,,,,,,,0,,,65,18,0,0,0,0,0,0
+]",,,,,,,,,,4/15/2022 12:30:08 AM,False,,,0,,,,,,,0,,,65,18, LivedinIreland(FormerlyExpats-Ireland),0,0,0,0, Crafts
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23844565743220659,ACTIVE,4/4/2020 6:07:50 PM,UNDEFINED,CAMPAIGN_PAUSED,4/9/2020 6:07:50 PM,23844565743310659,,False,,,UNDEFINED,Instagram Post: Y'all. We can't even with this...,LINK_CLICKS,NONE,,,,,,,,,,,False,,,4/4/2020 6:07:55 PM,ACTIVE,,,,,"[
   ""mobile""
 ]",,,,,,,,,,,,,"[
@@ -653,7 +653,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:25 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:25 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,KidActivities and Cardmaking and FamilyActivities and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847374848680659,,,IMPRESSIONS,23847374157320659,ACTIVE,4/30/2021 5:55:50 PM,UNDEFINED,CAMPAIGN_PAUSED,,23847478712620659,,False,,,UNDEFINED,LLA Email 2%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,4/30/2021 5:55:50 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -665,7 +665,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:24 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:24 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0, Parents(All),Father'sDay and Father'sDay(UnitedStates)
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23844551566200659,ACTIVE,4/1/2020 6:43:14 PM,UNDEFINED,CAMPAIGN_PAUSED,4/5/2020 6:43:14 PM,23844551566290659,,False,,,UNDEFINED,Instagram Post: Woot! Woot! 🔔🔔🔔 We have our first...,POST_ENGAGEMENT,NONE,,,,,,,,,,,False,,,4/1/2020 6:43:19 PM,ACTIVE,,,,,"[
   ""mobile""
 ]",,,,,,,,,,,,,"[
@@ -685,7 +685,7 @@
   ""story""
 ]",,"[
   ""instagram""
-]",,,,,,,3/30/2020 3:23:34 PM,False,321,321,0,,,,,,,0,,400,50,25,0,0,0,0,0,0
+]",,,,,,,3/30/2020 3:23:34 PM,False,321,321,0,,,,,,,0,,400,50,25,0,0,0,0,0,Genealogy and Ancestry.com and FamilyHistoryCenter(LDSChurch) and Familytree and Parenting and Temple(LDSChurch) and FamilyHistoryLibrary and Family and Familyandrelationships
 5/3/2022 9:02:49 AM,2639464932933985,0,,,IMPRESSIONS,23844529552270659,ACTIVE,3/27/2020 8:07:39 PM,UNDEFINED,CAMPAIGN_PAUSED,4/2/2020 8:07:39 PM,23844529552380659,,False,,,UNDEFINED,Instagram Post: Y'all!!! This is SO EXCITING!!!...,LINK_CLICKS,NONE,,,,,,,,,,,False,,,3/27/2020 8:07:45 PM,ACTIVE,,,,,"[
   ""mobile""
 ]",,,,,,,,,,,,,"[
@@ -701,7 +701,7 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0, Crafts
 5/3/2022 9:02:49 AM,2639464932933985,23848542770890659,,,IMPRESSIONS,23848910369460659,PAUSED,11/2/2021 6:18:23 PM,UNDEFINED,WITH_ISSUES,,23848910369660659,,False,,,UNDEFINED,LLA PUR 1%,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/2/2021 6:18:23 PM,PAUSED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
@@ -725,13 +725,13 @@
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0,0,0
+]",,,,,,,,,,8/11/2021 2:19:26 PM,False,,,0,,,,,,,0,,,65,25,0,0,0,0, Parents(All),Homeschooling and Cakedecorating and CookingandBaking and KidsActivities and FunCraftsKids
 5/3/2022 9:02:49 AM,2639464932933985,23847950156410659,,,IMPRESSIONS,23848968516810659,ARCHIVED,11/9/2021 7:49:57 PM,UNDEFINED,ARCHIVED,,23848968518250659,,False,,,UNDEFINED,TOF  | 25-55 | Birthdays,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,11/9/2021 7:49:57 PM,ARCHIVED,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
   ""home"",
   ""recent""
-]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,55,25,0,0,0,0,0,0
+]",,,,,,,,,,1/23/2022 7:23:02 PM,False,,,0,,,,,,,0,,,55,25,0,0,0,0, Parents(All),GreatBirthdayPartyIdeas and BirthdayGifts and Birthdaycake and Children'sparty and PartySupplies
 5/3/2022 9:02:49 AM,2639464932933985,23847374977060659,,,IMPRESSIONS,23847396115110659,ACTIVE,4/22/2021 7:08:30 PM,UNDEFINED,CAMPAIGN_PAUSED,,23847396115120659,,False,,,UNDEFINED,MOF - Web Visitors 30D,OFFSITE_CONVERSIONS,NONE,,PURCHASE,,,,,132547158685605,,,,False,,,4/22/2021 7:08:30 PM,ACTIVE,,,,,,,,,,,,,,,,,"[
   ""US""
 ]","[
