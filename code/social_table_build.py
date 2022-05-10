@@ -131,8 +131,11 @@ def updated_table_write(return_list, category_dict, key_dict):
         new_mat[0][ref_dict[_]] = _
     
     for key in key_dict:
+        print('|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||')
+        print(key)
         topic_dict = key_dict[key]
         for topic in topic_dict:
+            print()
             target_column = ref_dict[topic]
             new_mat[key][target_column] = topic_dict[topic]
     
@@ -194,9 +197,9 @@ def dict_row_clean(dict_list):
                         if type(category_dict) == int:
                             stringed = str(category_dict)
                             if category_count < amount_of_categories and category_count > 1 and amount_of_categories >= 1:
-                                category_string += ' ' + stringed + ' and'
+                                category_string += ' ' + stringed + ' ,'
                             elif category_count == 1 and amount_of_categories > 1:
-                                category_string += stringed + ' and'
+                                category_string += stringed + ' ,'
                             elif category_count >= amount_of_categories and amount_of_categories >=1:
                                 category_string += ' ' + stringed
                             elif amount_of_categories == 1:
@@ -208,17 +211,15 @@ def dict_row_clean(dict_list):
                             elif type(name) == int:
                                 name = str(int)
                             if category_count < amount_of_categories and category_count > 1 and amount_of_categories >= 1:
-                                category_string += ' ' + name + ' and'
+                                category_string += ' ' + name + ' ,'
                             elif category_count == 1 and amount_of_categories > 1:
-                                category_string += name + ' and'
+                                category_string += name + ' ,'
                             elif category_count >= amount_of_categories and amount_of_categories >=1:
                                 category_string += ' ' + name
                             elif amount_of_categories == 1:
                                 category_string += name
                         #row_num_dict = key_dict[row_num] 
                         key_dict[row_num][topic] = category_string
-    #print('@@@@@@@@@@@@@@@@@@@@@@')
-    #print(key_dict)
     return key_dict
 
     '''
@@ -255,15 +256,12 @@ def dict_row_clean(dict_list):
     '''
 def json_fix(string_json):
     open_paren_count = 0
-    #close_paren_count = 0
     for _ in string_json:
-        #print(_)
         if _ == '{':
             open_paren_count += 1
         elif _ == '}':
             open_paren_count -= 1
-        #print(open_paren_count)
-    #print(open_paren_count)
+        
         
             
             
